@@ -1,8 +1,8 @@
 body {
   background-color: #f2f2f2;
-  font-family: "Lato"; /* OPTIONAL: Google Fonts - base font */
+  font-family: "Lato"; 
   font-weight: 300;
-  font-size: 16px;
+  font-size: 15px;
   color: #555;
 
   -webkit-font-smoothing: antialiased;
@@ -11,15 +11,27 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway"; /* OPTIONAL: Google Fonts - title font */
-  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
   color: #333;
 }
+
+/* Below name */
+h3 {
+  font-family: 'Work Sans', sans-serif; 
+  font-weight: 100;
+  font-size: 15px;
+  color: #333;
+}
+
 
 /* Paragraph & Typographic */
 p {
   line-height: 28px;
   margin-bottom: 25px;
+  font-family: 'Work Sans', sans-serif; 
+  font-weight: 100;
+  color: #333;
 }
 
 .centered {
@@ -69,9 +81,9 @@ a:after {
 
 /* Header Wrap */
 .header {
-  background: #1CBCAD;
-  background: url(../images/header-bg.jpg) no-repeat center top;
-  padding-top:140px;
+  background: #606060;
+  /*background: url(../images/header-bg.jpg) no-repeat center top;*/
+  padding-top:120px;
   text-align:center;
   background-attachment: relative;
   background-position: center center;
@@ -92,7 +104,7 @@ a:after {
 .header h1 {
   font-size: 80px;
   color: white;
-  background: rgba(0,0,0,0.2);
+  /*background: rgba(0,0,0,0.2);*/
 }
 
 .header h3 {
@@ -107,7 +119,7 @@ a:after {
 /* About Wrap */
 .about {
   background: #2c3e50;
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 60px;
   color: white;
 } 
